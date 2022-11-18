@@ -17,3 +17,14 @@ scikit-learn              1.0.2
 torch                     1.12.1+cu113
 torchtext                 0.6.0
 transformers              4.24.0
+
+## 数据准备 Data Preparation
+数据集存放在data文件夹下，名为weibo\_senti\_100k.csv，运行代码train\_valid\_test_split.py生成train.csv、dev.csv、test.csv文件。训练集、验证集、测试集的拆分比例为8:1:1。
+Word2Vec Embedding存放在Word2Vec文件夹下，运行word2vec_train.py即可。
+
+The dataset is stored in the data folder named weibo\_senti\_100k.csv, and the code train\_valid\_test_split.py is run to generate the train.csv, dev.csv, and test.csv files. The splitting ratio of training set, validation set, and test set is 8:1:1.
+Word2Vec Embedding is stored in the Word2Vec folder, just run word2vec_train.py.
+
+## 参考 Reference
+数据集划分和Word2Vec部分代码来自于：https://github.com/wyd-case/weibo_sentiment_analysis-master 。
+The dataset partitioning and Word2Vec part code is taken from https://github.com/wyd-case/weibo_sentiment_analysis-master.
