@@ -28,3 +28,8 @@ Word2Vec Embedding is stored in the Word2Vec folder, just run word2vec_train.py.
 ## 参考 Reference
 数据集划分和Word2Vec部分代码来自于：https://github.com/wyd-case/weibo_sentiment_analysis-master 。
 The dataset partitioning and Word2Vec part code is taken from https://github.com/wyd-case/weibo_sentiment_analysis-master.
+
+## 性能测试结果 Performance Test Results
+最后，我想在这里给出各种基准的性能测试结果。
+Lastly, I would like to give the performance test results of various benchmarks here.
+<img width="400" alt="image" src="https://user-images.githubusercontent.com/98510598/206902081-26329ec7-dfc4-4877-a54f-6012034f1fcf.png">
