@@ -32,4 +32,5 @@ The dataset partitioning and Word2Vec part code is taken from https://github.com
 ## 性能测试结果 Performance Test Results
 最后，我想在这里给出各种基准的性能测试结果。
 Lastly, I would like to give the performance test results of various benchmarks here.
+
 <img width="400" alt="image" src="https://user-images.githubusercontent.com/98510598/206902081-26329ec7-dfc4-4877-a54f-6012034f1fcf.png">
